@@ -30,7 +30,7 @@ API RESTful construida con **Node.js**, **Express** y **MySQL**, diseñada con e
 
 ## 📁 Estructura del Proyecto
 
-```bash
+```
 .
 ├── config/            # Configuración de la base de datos
 ├── controllers/       # Lógica del negocio (auth, usuarios, productos, etc.)
@@ -51,20 +51,20 @@ API RESTful construida con **Node.js**, **Express** y **MySQL**, diseñada con e
 
 ### ✅ Clonar el repositorio
 
-```bash
+```
 git clone git@github.com:SamBleed/test-api-nodejs.git
 cd test-api-nodejs
 ```
 
 ### 🔧 Instalar dependencias
 
-```bash
+```
 npm install
 ```
 
 ### ⚙️ Crear archivo `.env`
 
-```env
+```
 PORT=3000
 DB_HOST=localhost
 DB_USER=root
@@ -75,7 +75,7 @@ JWT_SECRET=tu_secreto
 
 ### 🐳 Usar Docker
 
-```bash
+```
 docker-compose up
 ```
 
